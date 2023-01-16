@@ -128,7 +128,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve, roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 
-X_train, X_test, y_train, y_test = train_test_split(training_dataset_cp, train_target_cp, test_size=0.03,
+X_train, X_test, y_train, y_test = train_test_split(training_dataset_cp, train_target_cp, test_size=0.3,
     shuffle=True,stratify=train_target_cp,random_state=6)
 
 scaler = StandardScaler()
